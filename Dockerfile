@@ -8,7 +8,8 @@ ENV HASURA_GRAPHQL_DEV_MODE=false
 CMD graphql-engine \
     --database-url $postgres://postgres:bragapoin@hello-hasura.coz1kemlydbm.ap-southeast-1.rds.amazonaws.com:5432/hello-hasura \
     serve \
-    --server-port $8080
+    --server-port 8080
+    
 
 ## Comment the command above and use the command below to
 ## enable an access-key and an auth-hook
