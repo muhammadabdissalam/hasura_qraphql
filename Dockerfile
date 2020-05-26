@@ -8,7 +8,8 @@ CMD graphql-engine \
     --database-url postgresql://postgres:bragapoin@hello-hasura.coz1kemlydbm.ap-southeast-1.rds.amazonaws.com:5432/postgres \
     serve \
     --server-port 8080\
-    --server-host 0.0.0.0
+    --server-host 0.0.0.0\
+    --admin-secret mysecretkey
 
 
 ## Comment the command above and use the command below to
