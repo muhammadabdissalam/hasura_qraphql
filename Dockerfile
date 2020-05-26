@@ -10,8 +10,7 @@ CMD graphql-engine \
     serve \
     --server-port 8080\
     --server-host 0.0.0.0\
-    --admin-secret mysecretkey\
-    --jwt-secret ${HASURA_GRAPHQL_JWT_SECRET}
+    --admin-secret mysecretkey
 
 
 ## Comment the command above and use the command below to
