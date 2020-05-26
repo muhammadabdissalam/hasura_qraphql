@@ -11,7 +11,7 @@ CMD graphql-engine \
     --server-port 8080\
     --server-host 0.0.0.0\
     --admin-secret mysecretkey
-    -
+    
 
 
 ## Comment the command above and use the command below to
