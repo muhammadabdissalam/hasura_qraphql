@@ -8,7 +8,7 @@ CMD graphql-engine \
     --database-url postgresql://postgres:bragapoin@hello-hasura.coz1kemlydbm.ap-southeast-1.rds.amazonaws.com:5432/hello-hasura \
     serve \
     --server-port 80 \
-    --server-host '0.0.0.0'
+    --server-host 0.0.0.0
 
 
 ## Comment the command above and use the command below to
