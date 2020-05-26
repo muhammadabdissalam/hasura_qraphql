@@ -5,7 +5,7 @@ ENV HASURA_GRAPHQL_DEV_MODE=false
 # Change $DATABASE_URL to your heroku postgres URL if you're not using
 # the primary postgres instance in your app
 CMD graphql-engine \
-    --database-url postgresql://postgres:bragapoin@hello-hasura.coz1kemlydbm.ap-southeast-1.rds.amazonaws.com:5432/hello-hasura \
+    --database-url postgresql://postgres:bragapoin@hello-hasura.coz1kemlydbm.ap-southeast-1.rds.amazonaws.com:5432/postgres \
     serve \
     --server-port 8080\
     --server-host 0.0.0.0
